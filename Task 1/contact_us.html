@@ -6,6 +6,15 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
   <meta charset="UTF-8">
   <title>Codetribe | Task 1 HTML</title>
+    <style>
+    .container {
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin-top: 1em;
+    }
+  </style>
 </head>
 <body>
   <header style="background-color: whitesmoke;">
@@ -28,32 +37,29 @@
         </tr>
       </table>
   </header>
-
-
   <main>
-    <table style="max-width:100%">
-      <tr>
-        <td style="overflow: hidden;" colspan="2">
-          <div style="object-fit:cover; overflow: hidden;">
-          <img src="assets/img/img01.jpg" style="height:99vh;width:100%" alt="a dreamer in a wake world">
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td style="padding-left: 20vh; padding-right: 20vh;">
-            <h1>Bio</h1>
-            <p>I am an Information Scientist, passionate about creating empowering experiences through user centric design. I was born and raised in Vryheid, Kwa Zulu Natal, South Africa. I specialize in understanding user needs and creating impactful interactions between humans and computers. I am also involved in initiatives to empower women and the LGBTQIA+ community. I have an adventurous spirit with a proclivity for the dissemination of knowledge. A fan of the sci-fi/fantasy genre and old-school RnB music. I believe in the transformative power of love and in humanity, inspiring me to give of myself to create a better world.</p>
-        </td>
-        <td style="padding-right: 20vh;">
-          <div style="object-fit: contain;overflow: hidden;">
-          <img src="assets/img/avatar.jpg" height="150px" style="border-radius: 50%; border-color: rgb(255, 136, 17);border-style: solid;" alt="Dlozi Mthethwa">
-          </div>
-        </td>
-      </tr>
-    </table>
+    <h3>Contact Form</h3>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">South Africa</option>
+          <option value="canada">Zimbabwe</option>
+          <option value="usa">Namibia</option>
+        </select><br>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </main>
-
-
   <footer>
     <table style="background-color: darkred;color: white; width: 100%;">
       <tr>
