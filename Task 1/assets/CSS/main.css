@@ -20,6 +20,7 @@ header{
 .nav{
   display: inline;
   margin-right: 60px;
+  vertical-align: middle;
 }
 
 h1{
@@ -37,7 +38,7 @@ table{
 }
 
 td{
-  vertical-align: top;
+
 }
 
 li a {
@@ -49,6 +50,15 @@ li a {
   border-color: black;
 }
 
+label{
+  display: block;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 1vw;
+}
+
+input{
+  display: block;
+}
 
 .job_title{
   font-family: 'Hind Madurai', sans-serif;
