@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&family=Josefin+Slab:wght@300&family=Press+Start+2P&family=Source+Sans+Pro:wght@300&display=swap');
 
 html
 {
@@ -24,11 +23,21 @@ header{
 }
 
 h1{
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4vw;
+}
+
+h2{
+  font-family: 'Josefin Slab', serif;
+  font-size: 3vw;
 }
 
 table{
   width: 100%;
+}
+
+td{
+  vertical-align: top;
 }
 
 li a {
@@ -42,6 +51,10 @@ li a {
 
 
 .job_title{
-
+  font-family: 'Hind Madurai', sans-serif;
 }
 
+.employer{
+  font-family: 'Hind Madurai', sans-serif;
+  color: darkgray;
+}
