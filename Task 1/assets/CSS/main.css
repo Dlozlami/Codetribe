@@ -53,11 +53,19 @@ li a {
 label{
   display: block;
   font-family: 'Hind Madurai', sans-serif;
-  font-size: 1vw;
+  font-size: 2vw;
 }
 
 input{
   display: block;
+  font-size: 2vw;
+  width: 80%;
+}
+
+textarea{
+  height: 200px;
+  width: 80%;
+  font-size: 2vw;
 }
 
 .job_title{
