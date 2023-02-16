@@ -13,7 +13,7 @@ body
 }
 
 header{
-  background-color: whitesmoke;
+
 }
 
 
@@ -35,20 +35,21 @@ h2{
 
 table{
   width: 100%;
+  padding: 30px;
 }
 
 td{
 
 }
 
-li a {
+li.nav a {
   text-decoration: none;
-  border: 1px solid;
-  border-radius: 4px;
-  padding: 4px 8px;
   color: black;
-  border-color: black;
+  font-size: 1.5vw;
 }
+
+li.nav a:hover {
+  background-color: whitesmok}
 
 label{
   display: block;
