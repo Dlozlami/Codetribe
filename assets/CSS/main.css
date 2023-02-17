@@ -52,6 +52,11 @@ li.nav a:hover {
   text-decoration: underline;
 }
 
+ul {
+  list-style-image: url('assets/icons/add.png');
+  color: red;
+}
+
 label{
   display: block;
   font-family: 'Hind Madurai', sans-serif;
