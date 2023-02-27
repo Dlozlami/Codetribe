@@ -4,6 +4,19 @@ const about_me = {
   linkedin: "https://www.linkedin.com/in/dlozimthethwa/",
   
 
+  function build_structure() {
+    // Create the main tag
+    const mainElement = document.createElement("main");
+
+    // Create the article tag
+    const articleElement = document.createElement("article");
+
+    // Add the article tag to the main tag
+    mainElement.appendChild(articleElement);
+
+    // Add the main tag to the document body
+    document.body.appendChild(mainElement);
+  }
 
 };
 
