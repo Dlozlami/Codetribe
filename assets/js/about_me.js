@@ -6,3 +6,10 @@ const about_me = {
 
 
 };
+
+function main() {
+  
+}
+
+// Call the main function when the page finishes loading
+window.onload = main;
