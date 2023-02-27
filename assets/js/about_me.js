@@ -35,8 +35,11 @@ const about_me = {
 
     // Add the main tag to the document body
     document.body.appendChild(mainElement);
-  }
+  },
 
+  function displayEducation() {
+
+  }
 };
 
 function main() {
