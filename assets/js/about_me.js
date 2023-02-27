@@ -37,6 +37,18 @@ const about_me = {
     document.body.appendChild(mainElement);
   },
 
+  
+  function displayHeading() {
+  const html = `
+    <section>
+      <h1>About me</h1>
+      <p>${professional_summary}</p>
+      <a href="${linkedin}" style="text-decoration: none;color: black;"><i class="bi bi-linkedin">${linkedin}</i></a>
+      <hr>
+    </section>`;
+  return html;
+  },
+
   function displayEducation() {
   let educationSection = document.createElement("section");
   educationSection.style.width = "40%";
