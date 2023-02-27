@@ -38,8 +38,48 @@ const about_me = {
   },
 
   function displayEducation() {
+  let educationSection = document.createElement("section");
+  educationSection.style.width = "40%";
+  educationSection.style.verticalAlign = "text-top";
+  educationSection.style.paddingRight = "10px";
+  
+  let educationTitle = document.createElement("h2");
+  educationTitle.textContent = "Education";
+  educationSection.appendChild(educationTitle);
+  
+  let educationHR = document.createElement("hr");
+  educationSection.appendChild(educationHR);
 
+  let educationArray = education;
+  for (let i = 0; i < educationArray.length; i++) {
+    let educationItem = educationArray[i];
+    
+    let jobTitle = document.createElement("span");
+    jobTitle.classList.add("job_title");
+    jobTitle.textContent = educationItem[0];
+    educationSection.appendChild(jobTitle);
+
+    let employer = document.createElement("span");
+    employer.classList.add("employer");
+    employer.textContent = educationItem[1];
+    educationSection.appendChild(employer);
+
+    let duration = document.createElement("span");
+    duration.classList.add("duration");
+    duration.textContent = educationItem[2];
+    educationSection.appendChild(duration);
+
+    let br = document.createElement("br");
+    educationSection.appendChild(br);
+    let br2 = document.createElement("br");
+    educationSection.appendChild(br2);
   }
+
+  let mainTag = document.getElementsByTagName("main")[0];
+  let articleTag = mainTag.getElementsByTagName("article")[0];
+  articleTag.appendChild(educationSection);
+  }
+
 };
 
 function main() {
