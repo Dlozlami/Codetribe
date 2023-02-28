@@ -47,7 +47,7 @@ const about_me = {
       <a href="${linkedin}" style="text-decoration: none;color: black;"><i class="bi bi-linkedin">${linkedin}</i></a>
       <hr>
     </section>`;
-  return html;
+  articleTag.appendChild(html);
   },
 
   display_education: function() {
@@ -97,8 +97,8 @@ const about_me = {
 
 function main() {
   
-  
-  
+
+
 }
 
 // Call the main function when the page finishes loading
