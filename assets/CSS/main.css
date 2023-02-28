@@ -17,6 +17,9 @@ header{
   
 }
 
+span{
+  display: block;
+}
 
 .nav{
   display: inline;
@@ -54,7 +57,7 @@ i{
 
 li.nav a {
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 
 li.nav a:hover {
