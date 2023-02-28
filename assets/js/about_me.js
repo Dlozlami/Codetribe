@@ -1,9 +1,10 @@
 const about_me = {
+  
   header:"About me",
   professional_summary: "A highly organized and creative professional with 5+ years of experience in customer service and project management. Offering strong communication, problem-solving and analytical skills and a history of success developing impactful interactions between humans and computers. Focused on creating empowering experiences through user-centric design.",
   linkedin: "https://www.linkedin.com/in/dlozimthethwa/",
-  const education = [
-  [
+  education : [
+    [
       {
         type: "Certificate",
         field: "HIV Testing and Counselling",
@@ -23,7 +24,7 @@ const about_me = {
     ]
   ],
 
-  function build_structure() {
+  build_structure: function() {
     // Create the main tag
     const mainElement = document.createElement("main");
 
@@ -37,8 +38,8 @@ const about_me = {
     document.body.appendChild(mainElement);
   },
 
-  
-  function displayHeading() {
+
+  display_heading: function() {
   const html = `
     <section>
       <h1>About me</h1>
@@ -49,7 +50,7 @@ const about_me = {
   return html;
   },
 
-  function displayEducation() {
+  display_education: function() {
   let educationSection = document.createElement("section");
   educationSection.style.width = "40%";
   educationSection.style.verticalAlign = "text-top";
@@ -95,6 +96,8 @@ const about_me = {
 };
 
 function main() {
+  
+  
   
 }
 
